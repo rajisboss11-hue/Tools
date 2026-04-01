@@ -9,10 +9,16 @@ export default function Tools() {
   // We use safe Wikipedia or Example.com iframes as placeholders for the user's actual tools.
   const toolsList = [
     { 
+      id: 5, 
+      name: 'Super Grok AI', 
+      desc: 'Advanced AI assistant powered by Grok. Requires your API key.',
+      iframeUrl: 'https://v0-grokpaid.vercel.app/' 
+    },
+    { 
       id: 1, 
-      name: 'Chkr.cc Tool', 
-      desc: 'can you test it?',
-      iframeUrl: 'https://chkr.cc/' 
+      name: 'Free CC Generator', 
+      desc: 'Generate test credit card numbers for development.',
+      iframeUrl: 'https://example.com' 
     },
     { 
       id: 2, 
@@ -31,13 +37,7 @@ export default function Tools() {
       name: 'Color Palette Generator', 
       desc: 'Extract colors from images or generate random palettes.',
       iframeUrl: 'https://example.com' 
-    },
-    { 
-      id: 5, 
-      name: 'Super Grok AI', 
-      desc: 'Advanced AI assistant powered by Grok. Requires your API key.',
-      iframeUrl: 'https://v0-grokpaid.vercel.app/' 
-    },
+    }
   ];
 
   const handleToolClick = (id: number) => {
@@ -50,6 +50,7 @@ export default function Tools() {
   };
 
   const activeToolData = toolsList.find(t => t.id === activeTool);
+  const directLink = "https://thrillingdeepcutlery.com/y3j3hzta?key=c51a0b5d4c29236d74feb13b84a1b132";
 
   return (
     <div className="space-y-8">
@@ -90,7 +91,7 @@ export default function Tools() {
           {/* Professional Sponsor Link */}
           <div className="flex justify-center py-2">
             <a 
-              href="https://example.com/your-adsterra-direct-link" 
+              href={directLink} 
               target="_blank" 
               rel="noopener noreferrer" 
               className="bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium py-2 px-6 rounded flex items-center gap-2 transition-colors w-full sm:w-auto justify-center"

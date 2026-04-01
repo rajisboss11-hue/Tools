@@ -2,12 +2,13 @@ import PromoBanner from './PromoBanner';
 import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
-  const categories = ['Technology', 'SEO Tools', 'Web Development', 'Blogging Tips', 'Monetization'];
+  const categories = ['AI Tools', 'AI Video', 'Tools', 'AI News', 'Machine Learning'];
   
   const recentPosts = [
-    { id: 1, title: 'How to maximize Adsterra Revenue', path: '/blog/1' },
-    { id: 2, title: 'Top 10 Free SEO Tools in 2026', path: '/blog/2' },
-    { id: 3, title: 'Getting started with React & Tailwind', path: '/blog/3' },
+    { id: 1, title: 'Grok AI: The Future of Uncensored Artificial Intelligence', path: '/blog/1' },
+    { id: 2, title: 'Free Credit Cards Generator: How It Works and Use Cases', path: '/blog/2' },
+    { id: 3, title: 'Seedance 2.0: Revolutionizing AI Video Generation', path: '/blog/3' },
+    { id: 4, title: 'Kling 3 Released: The Next Generation of AI Models', path: '/blog/4' },
   ];
 
   return (

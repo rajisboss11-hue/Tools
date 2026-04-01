@@ -5,31 +5,31 @@ import PromoBanner from '../components/PromoBanner';
 export default function Home() {
   const featuredTools = [
     { id: 5, name: 'Super Grok AI', desc: 'Advanced AI assistant powered by Grok. Requires your API key.' },
-    { id: 1, name: 'SEO Analyzer', desc: 'Analyze your website SEO instantly.' },
+    { id: 1, name: 'Free CC Generator', desc: 'Generate test credit card numbers for development.' },
     { id: 3, name: 'JSON Formatter', desc: 'Format and validate your JSON data.' },
   ];
 
   const recentPosts = [
     {
       id: 1,
-      title: 'The Ultimate Guide to Monetizing with Adsterra',
-      excerpt: 'Learn how to properly place Adsterra ads on your Blogger or React site to maximize your CPM and revenue without hurting user experience.',
+      title: 'Grok AI: The Future of Uncensored Artificial Intelligence',
+      excerpt: 'Explore how Grok AI is changing the landscape of artificial intelligence with real-time knowledge and a rebellious streak.',
       date: 'April 1, 2026',
-      category: 'Monetization'
+      category: 'AI Tools'
     },
     {
       id: 2,
-      title: 'Why Iframe Tools Drive Massive Traffic',
-      excerpt: 'Embedding free tools on your blog is the best way to get returning visitors and lower your bounce rate. Here is how to do it.',
+      title: 'Free Credit Cards Generator: How It Works and Use Cases',
+      excerpt: 'Learn about virtual credit card generators, how developers use them for testing payment gateways, and safety tips.',
       date: 'March 28, 2026',
-      category: 'SEO Tools'
+      category: 'Tools'
     },
     {
       id: 3,
-      title: 'Responsive Design Best Practices for 2026',
-      excerpt: 'Ensure your website looks perfect on mobile, tablet, and desktop using modern CSS frameworks like Tailwind CSS.',
+      title: 'Seedance 2.0: Revolutionizing AI Video Generation',
+      excerpt: 'Discover the new features in Seedance 2.0, the ultimate AI video generator that brings your imagination to life.',
       date: 'March 25, 2026',
-      category: 'Web Development'
+      category: 'AI Video'
     }
   ];
 
@@ -38,10 +38,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 text-center">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4 tracking-tight">
-          Welcome to <span className="text-blue-600">Blog&Tools</span>
+          Welcome to <span className="text-blue-600">FREE ALL AI</span>
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-          Your one-stop destination for insightful articles and powerful free online tools. Fully optimized for all devices and ready for monetization.
+          Your one-stop destination for the latest AI news, insights, and powerful free online tools. Fully optimized for all devices.
         </p>
         <div className="flex justify-center gap-4">
           <Link to="/tools" className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center">

@@ -6,35 +6,35 @@ export default function Blog() {
   const posts = [
     {
       id: 1,
-      title: 'The Ultimate Guide to Monetizing with Adsterra',
-      excerpt: 'Learn how to properly place Adsterra ads on your Blogger or React site to maximize your CPM and revenue without hurting user experience.',
+      title: 'Grok AI: The Future of Uncensored Artificial Intelligence',
+      excerpt: 'Explore how Grok AI is changing the landscape of artificial intelligence with real-time knowledge and a rebellious streak.',
       date: 'April 1, 2026',
-      category: 'Monetization',
-      image: 'https://picsum.photos/seed/monetize/800/400'
+      category: 'AI Tools',
+      image: 'https://picsum.photos/seed/grok/800/400'
     },
     {
       id: 2,
-      title: 'Why Iframe Tools Drive Massive Traffic',
-      excerpt: 'Embedding free tools on your blog is the best way to get returning visitors and lower your bounce rate. Here is how to do it effectively.',
+      title: 'Free Credit Cards Generator: How It Works and Use Cases',
+      excerpt: 'Learn about virtual credit card generators, how developers use them for testing payment gateways, and safety tips.',
       date: 'March 28, 2026',
-      category: 'SEO Tools',
-      image: 'https://picsum.photos/seed/tools/800/400'
+      category: 'Tools',
+      image: 'https://picsum.photos/seed/credit/800/400'
     },
     {
       id: 3,
-      title: 'Responsive Design Best Practices for 2026',
-      excerpt: 'Ensure your website looks perfect on mobile, tablet, and desktop using modern CSS frameworks like Tailwind CSS.',
+      title: 'Seedance 2.0: Revolutionizing AI Video Generation',
+      excerpt: 'Discover the new features in Seedance 2.0, the ultimate AI video generator that brings your imagination to life.',
       date: 'March 25, 2026',
-      category: 'Web Development',
-      image: 'https://picsum.photos/seed/design/800/400'
+      category: 'AI Video',
+      image: 'https://picsum.photos/seed/video/800/400'
     },
     {
       id: 4,
-      title: 'How to Increase Your Blog Traffic Organically',
-      excerpt: 'Stop paying for ads. Use these 5 proven SEO strategies to rank higher on Google and bring organic traffic to your blog.',
+      title: 'Kling 3 Released: The Next Generation of AI Models',
+      excerpt: 'Kling 3 is here, offering unprecedented capabilities in text and image processing. See what\'s new in this massive update.',
       date: 'March 20, 2026',
-      category: 'Blogging Tips',
-      image: 'https://picsum.photos/seed/traffic/800/400'
+      category: 'AI News',
+      image: 'https://picsum.photos/seed/kling/800/400'
     }
   ];
 
@@ -42,7 +42,7 @@ export default function Blog() {
     <div className="space-y-8">
       <div className="border-b pb-4">
         <h1 className="text-3xl font-extrabold text-gray-900">Blog Articles</h1>
-        <p className="text-gray-600 mt-2">Read the latest tips on blogging, SEO, and monetization.</p>
+        <p className="text-gray-600 mt-2">Read the latest news and guides about AI, Grok, Seedance, and more.</p>
       </div>
 
       <div className="space-y-8">

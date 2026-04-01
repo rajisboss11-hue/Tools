@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 
 interface PromoBannerProps {
-  format?: '728x90' | '300x250' | '160x300' | '468x60' | '320x50' | 'native' | 'sticky-bottom' | 'popunder' | 'social-bar';
+  format?: '728x90' | '300x250' | '160x300' | '160x600' | '468x60' | '320x50' | 'native' | 'sticky-bottom' | 'popunder' | 'social-bar';
   id?: string;
   className?: string;
 }
@@ -22,23 +22,27 @@ export default function PromoBanner({ format = '728x90', id = 'demo-ad-id', clas
       let height = 0;
 
       if (format === '728x90') {
-        key = '25042be093b75b7434193374360a96ee';
+        key = '0d506bfc9ebf8b518b921a2dcab0dbf5';
         width = 728;
         height = 90;
       } else if (format === '300x250') {
-        key = '4df301aeb258f547f22be9a622fb66af';
+        key = 'df3e160617ee04a5fd65dceb42500f26';
         width = 300;
         height = 250;
       } else if (format === '160x300') {
-        key = '5711bf352c2e72e85fc5863c1710cfcf';
+        key = '9c1ebc35124cb7380ac5bdb50b877e2d';
         width = 160;
         height = 300;
+      } else if (format === '160x600') {
+        key = '6a3a31b90f7ab2e054c09952ae8658d1';
+        width = 160;
+        height = 600;
       } else if (format === '468x60') {
-        key = '84fd07df2f45cacdff86949dfd140d2d';
+        key = '399b06f61d014dbcc900bb6c970f5cff';
         width = 468;
         height = 60;
       } else if (format === '320x50' || format === 'sticky-bottom') {
-        key = '0767639872c645df6b5dc11a9a211327';
+        key = 'f9c7ad0c3695a2b765cf0b8207ec35b4';
         width = 320;
         height = 50;
       }
@@ -49,11 +53,11 @@ export default function PromoBanner({ format = '728x90', id = 'demo-ad-id', clas
         script.type = 'text/javascript';
         script.async = true;
         script.dataset.cfasync = 'false';
-        script.src = '//thrillingdeepcutlery.com/ef62270d1cae19026cdc37ef862eb7b0/invoke.js';
+        script.src = '//thrillingdeepcutlery.com/73333946f9b97c6db4f0c7b0c905df60/invoke.js';
         script.className = 'adsterra-script';
         
         const containerDiv = document.createElement('div');
-        containerDiv.id = 'container-ef62270d1cae19026cdc37ef862eb7b0';
+        containerDiv.id = 'container-73333946f9b97c6db4f0c7b0c905df60';
         
         banner.current.append(script);
         banner.current.append(containerDiv);

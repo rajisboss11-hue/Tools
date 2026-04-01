@@ -12,7 +12,7 @@ export default function Navbar() {
     { name: 'Tools', path: '/tools', icon: <Wrench className="w-4 h-4 mr-2" /> },
   ];
 
-  const directLink = "https://thrillingdeepcutlery.com/i6gxqccx9?key=e56488b6a9c472fd9858b82cc5787250";
+  const directLink = "https://thrillingdeepcutlery.com/y3j3hzta?key=c51a0b5d4c29236d74feb13b84a1b132";
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <span className="font-bold text-2xl text-blue-600">Blog&Tools</span>
+              <span className="font-bold text-2xl text-blue-600">FREE ALL AI</span>
             </Link>
           </div>
           
