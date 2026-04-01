@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Advertisement</title>
+  <style>
+    body { 
+      margin: 0; 
+      padding: 0; 
+      overflow: hidden; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      background: transparent; 
+    }
+  </style>
+</head>
+<body>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const key = params.get('key');
+    const w = params.get('w');
+    const h = params.get('h');
+    const isNative = params.get('native') === 'true';
+
+    if (isNative) {
+      document.write('<script async="async" data-cfasync="false" src="//thrillingdeepcutlery.com/73333946f9b97c6db4f0c7b0c905df60/invoke.js"><\/script>');
+      document.write('<div id="container-73333946f9b97c6db4f0c7b0c905df60"></div>');
+    } else if (key) {
+      window.atOptions = {
+        'key' : key,
+        'format' : 'iframe',
+        'height' : parseInt(h, 10),
+        'width' : parseInt(w, 10),
+        'params' : {}
+      };
+      document.write('<script type="text/javascript" src="//thrillingdeepcutlery.com/' + key + '/invoke.js"><\/script>');
+    }
+  </script>
+</body>
+</html>
