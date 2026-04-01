@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react';
 
-interface AdBannerProps {
+interface PromoBannerProps {
   format?: '728x90' | '300x250' | '160x600' | '468x60' | 'native' | 'sticky-bottom' | 'popunder' | 'social-bar';
   id?: string;
   className?: string;
 }
 
-export default function AdBanner({ format = '728x90', id = 'demo-ad-id', className = '' }: AdBannerProps) {
+export default function PromoBanner({ format = '728x90', id = 'demo-ad-id', className = '' }: PromoBannerProps) {
   const adRef = useRef<HTMLDivElement>(null);
 
   // In a real Adsterra integration, you would inject the script tag here.

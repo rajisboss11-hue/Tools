@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Maximize2, Minimize2, Wrench } from 'lucide-react';
-import AdBanner from '../components/AdBanner';
+import PromoBanner from '../components/PromoBanner';
 
 export default function Tools() {
   const [activeTool, setActiveTool] = useState<number | null>(null);
@@ -79,13 +79,13 @@ export default function Tools() {
       </div>
 
       {/* Adsterra Ad between grid and viewer */}
-      <AdBanner format="728x90" className="w-full my-6" />
+      <PromoBanner format="728x90" className="w-full my-6" />
 
       {/* Tool Viewer (Iframe) */}
       {activeToolData && (
         <div className="space-y-4">
           {/* High CTR placement right above the tool */}
-          <AdBanner format="native" className="w-full min-h-[100px]" />
+          <PromoBanner format="native" className="w-full min-h-[100px]" />
           
           {/* Professional Sponsor Link */}
           <div className="flex justify-center py-2">
@@ -139,7 +139,7 @@ export default function Tools() {
         </div>
 
         {/* High CTR placement right below the tool */}
-        <AdBanner format="728x90" className="w-full" />
+        <PromoBanner format="728x90" className="w-full" />
       </div>
       )}
 

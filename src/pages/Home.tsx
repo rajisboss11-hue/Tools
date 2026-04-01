@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Wrench } from 'lucide-react';
-import AdBanner from '../components/AdBanner';
+import PromoBanner from '../components/PromoBanner';
 
 export default function Home() {
   const featuredTools = [
@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* In-content Ad */}
-      <AdBanner format="728x90" className="w-full" />
+      <PromoBanner format="728x90" className="w-full" />
 
       {/* Featured Tools Section */}
       <section>

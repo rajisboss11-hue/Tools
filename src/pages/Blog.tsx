@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import AdBanner from '../components/AdBanner';
+import PromoBanner from '../components/PromoBanner';
 
 export default function Blog() {
   const posts = [
@@ -77,7 +77,7 @@ export default function Blog() {
             {/* Insert an ad after EVERY post for maximum earning */}
             {index !== posts.length - 1 && (
               <div className="my-8">
-                <AdBanner format="native" className="w-full min-h-[120px]" />
+                <PromoBanner format="native" className="w-full min-h-[120px]" />
               </div>
             )}
           </div>

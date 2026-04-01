@@ -1,4 +1,4 @@
-import AdBanner from './AdBanner';
+import PromoBanner from './PromoBanner';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white mt-12">
       {/* Pre-footer Ad */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 border-b border-gray-800">
-        <AdBanner format="728x90" className="w-full max-w-4xl mx-auto bg-gray-800 border-gray-700 text-gray-400" />
+        <PromoBanner format="728x90" className="w-full max-w-4xl mx-auto bg-gray-800 border-gray-700 text-gray-400" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

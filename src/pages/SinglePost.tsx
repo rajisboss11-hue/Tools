@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, User, Tag, Download } from 'lucide-react';
-import AdBanner from '../components/AdBanner';
+import PromoBanner from '../components/PromoBanner';
 
 export default function SinglePost() {
   const { id } = useParams();
@@ -65,7 +65,7 @@ export default function SinglePost() {
       {/* Post Content */}
       <div className="p-6 sm:p-8">
         {/* Top Content Ad */}
-        <AdBanner format="728x90" className="w-full mb-8" />
+        <PromoBanner format="728x90" className="w-full mb-8" />
 
         {/* Professional Direct Link Button */}
         <div className="my-8 flex justify-center">
@@ -86,10 +86,10 @@ export default function SinglePost() {
         />
 
         {/* Mid Content Ad (Native) */}
-        <AdBanner format="native" className="w-full my-8 min-h-[150px]" />
+        <PromoBanner format="native" className="w-full my-8 min-h-[150px]" />
 
         {/* Bottom Content Ad */}
-        <AdBanner format="300x250" className="w-full mt-8" />
+        <PromoBanner format="300x250" className="w-full mt-8" />
 
         {/* Tags */}
         <div className="mt-8 pt-8 border-t flex items-center gap-2 text-sm text-gray-500">
