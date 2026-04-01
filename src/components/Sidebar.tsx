@@ -52,7 +52,7 @@ export default function Sidebar() {
       {/* Sidebar Ad 2 */}
       <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 sticky top-20">
         <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3">Advertisement</h3>
-        <PromoBanner format="160x600" className="w-full min-h-[600px]" />
+        <PromoBanner format="160x300" className="w-full min-h-[300px]" />
       </div>
     </aside>
   );

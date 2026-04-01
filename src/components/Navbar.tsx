@@ -12,6 +12,8 @@ export default function Navbar() {
     { name: 'Tools', path: '/tools', icon: <Wrench className="w-4 h-4 mr-2" /> },
   ];
 
+  const directLink = "https://thrillingdeepcutlery.com/i6gxqccx9?key=e56488b6a9c472fd9858b82cc5787250";
+
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -41,7 +43,7 @@ export default function Navbar() {
             
             {/* High Revenue Direct Link in Navbar */}
             <a 
-              href="https://example.com/your-adsterra-direct-link" 
+              href={directLink}
               target="_blank" 
               rel="noopener noreferrer"
               className="ml-4 flex items-center px-4 py-2 bg-blue-600 text-white rounded-full text-sm font-bold shadow-md hover:bg-blue-700 hover:shadow-lg transition-all animate-pulse"
@@ -86,7 +88,7 @@ export default function Navbar() {
             
             {/* Mobile High Revenue Direct Link */}
             <a 
-              href="https://example.com/your-adsterra-direct-link" 
+              href={directLink}
               target="_blank" 
               rel="noopener noreferrer"
               className="mt-4 flex justify-center items-center px-4 py-3 bg-blue-600 text-white rounded-lg text-base font-bold shadow-md hover:bg-blue-700 transition-all"
