@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Wrench, FileText, Home, Zap } from 'lucide-react';
+import { Menu, X, Wrench, FileText, Home, Zap, Sparkles } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Navbar() {
@@ -10,6 +10,7 @@ export default function Navbar() {
     { name: 'Home', path: '/', icon: <Home className="w-4 h-4 mr-2" /> },
     { name: 'Blog', path: '/blog', icon: <FileText className="w-4 h-4 mr-2" /> },
     { name: 'Tools', path: '/tools', icon: <Wrench className="w-4 h-4 mr-2" /> },
+    { name: 'AI Writer', path: '/writer', icon: <Sparkles className="w-4 h-4 mr-2" /> },
   ];
 
   const directLink = "https://thrillingdeepcutlery.com/y3j3hzta?key=c51a0b5d4c29236d74feb13b84a1b132";

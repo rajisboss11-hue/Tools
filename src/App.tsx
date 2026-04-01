@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Blog from './pages/Blog';
 import SinglePost from './pages/SinglePost';
 import Tools from './pages/Tools';
+import AIWriter from './pages/AIWriter';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:id" element={<SinglePost />} />
           <Route path="tools" element={<Tools />} />
+          <Route path="writer" element={<AIWriter />} />
         </Route>
       </Routes>
     </Router>
